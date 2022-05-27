@@ -81,7 +81,12 @@ ul {
     
 }
 .h3index{
+    transition: all 2s;
     font-size: 28px;
+    
+}
+.h3index:hover{
+   font-size: 35px;
 }
 .grid{
     display: grid;
@@ -110,4 +115,25 @@ ul {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+}
+
+.alargue{
+    width: 15%;
+    font-size: 22px;
+    transition: all 2s;
+}
+
+.alargue:hover{
+    font-size: 30px;
+}
+
+.footerl{
+    font-size: 18px;
+    transition: all 2s;
+}
+.footerl:hover{
+    font-size: 25px;
+}
+#grad{
+    background-image: linear-gradient(rgb(148, 201, 105), rgb(52, 94, 61));
 }
