@@ -8,8 +8,8 @@
    text-decoration: underline;
    text-align: center;
 }
-.ht11{
-    width: 100%;
+.h1size{
+    font-size: 2.5rem;
 }
 .ps{
     color: rgb(0, 0, 0);
@@ -119,21 +119,24 @@ ul{
 }
 
 .alargue{
-    width: 15%;
-    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
     transition: all 2s;
 }
 
 .alargue:hover{
-    font-size: 30px;
+    font-size: 32px;
+    color: white;
 }
 
 .footerl{
-    font-size: 18px;
+    font-size: 25px;
     transition: all 2s;
 }
 .footerl:hover{
-    font-size: 25px;
+    font-size: 40px;
+    color: #41721e;
 }
 #grad{
     background-image: linear-gradient(rgb(129, 156, 107), rgb(11, 75, 24));
