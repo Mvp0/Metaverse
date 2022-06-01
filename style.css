@@ -16,10 +16,16 @@
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 18px 26px 25px 40px;
+    border-radius: 5px;
 }
-
+.fondocajas{
+    background-color: #454f3a;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 1rem;
+}
 label{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -30,6 +36,10 @@ label{
 .cuadro2{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
+}
+.cuadro21{
+    text-align: center;
 }
  
 .logo{
@@ -40,6 +50,9 @@ label{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     color: antiquewhite;
+    background-color: rgb(70, 105, 70);
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 .link2{
@@ -69,6 +82,14 @@ ul{
     padding: 2rem;
     margin-top: 2rem; 
 }
+.espacio{
+    margin-top: 3rem;
+
+}
+.formulario1{
+    margin: 15px;
+}
+
 .texto{
     width: 70%;
 }
