@@ -128,7 +128,7 @@ ul{
 }
 .grid2{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -206,6 +206,9 @@ ul{
     .grid2{
         grid-template-columns: repeat(1, 1fr);
     }
+    .margenfoto{
+        margin-bottom: 15px;
+    }
     
    
 }
@@ -240,4 +243,24 @@ ul{
         margin-left: 50px;
         margin-right: 50px;
     }
+    .margenfoto{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1243px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid4{
+        grid-template-rows: repeat(2, 0.5fr);
+    }
+    .cuadro2{
+        display: block;
+        text-align: center;
+    }
+    .margenfoto{
+        margin-bottom: 15px;
+    }
+  
 }
