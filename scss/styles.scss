@@ -1,0 +1,275 @@
+@import "listas";
+
+
+.body1{
+    background-image: linear-gradient(to right top, nth($colores, 1), nth($colores, 2), nth($colores, 3), nth($colores, 4), nth($colores, 5));
+}
+.h1h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: nth($colores, 6);
+   text-decoration: underline;
+   text-align: center;
+}
+.h1size{
+    font-size: nth($medidas, 1);
+}
+.ps{
+    color: nth($colores, 7);
+    font-size: nth($medidas, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: nth($medidas, 3) nth($medidas, 4) nth($medidas, 5) nth($medidas,6);
+    border-radius: nth($medidas, 7);
+}
+.fondocajas{
+    background-color: nth($colores, 2);
+    margin: nth($medidas, 6) nth($medidas, 5) nth($medidas, 8) nth($medidas, 5);
+    padding: nth($medidas, 9);
+    border-radius: nth($medidas, 10);
+}
+label{
+    color: nth($colores, 7);
+    font-size: nth($medidas, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuadro{
+    border: nth($medidas, 12) solid;
+}
+.cuadro2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: nth($medidas, 6);
+}
+.cuadro21{
+    text-align: center;
+}
+ 
+.logo{
+    width: nth($medidas, 13);
+}
+.link{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: nth($colores, 8);
+    background-color: nth($colores, 9);
+    padding: nth($medidas, 14);
+    border-radius: nth($medidas, 10);
+}
+
+
+.tran2{
+    font-size: nth($medidas, 15);
+    transition: all nth($medidas, 16);
+}
+
+.tran2:hover{
+    font-size: nth($medidas, 17);
+}
+
+.link2{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: nth($medidas, 3);
+    color: nth($colores, 8);
+}
+.redes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+}
+.redes2{
+   width: nth($medidas, 18);
+   height: nth($medidas, 18);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+
+}
+.borde{
+    border-style: dashed;
+    border-color: nth($colores, 10);
+    padding: nth($medidas, 19);
+    margin-top: nth($medidas, 19); 
+}
+.espacio{
+    margin-top: nth($medidas, 20);
+
+}
+.formulario1{
+    margin: nth($medidas, 9);
+}
+
+.texto{
+    width: nth($medidas, 21);
+}
+.stan{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.h3index{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: nth($colores, 11);
+    transition: all nth($medidas, 22);
+    font-size: nth($medidas, 23);
+    
+}
+.h3index:hover{
+   font-size: nth($medidas, 6);
+   color: nth($colores, 6);
+}
+.grid{
+    display: grid;
+    grid-template-columns: nth($medidas, 24) nth($medidas, 25) nth($medidas, 24);
+    grid-template-rows: nth($medidas, 24) nth($medidas, 26);
+    grid-column-gap: nth($medidas, 27);
+    grid-row-gap: nth($medidas, 27);
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(nth($medidas, 31), nth($medidas, 24));
+    grid-template-rows: nth($medidas, 24);
+    grid-column-gap: nth($medidas, 27);
+    grid-row-gap: nth($medidas, 27);
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(nth($medidas, 31), nth($medidas, 24));
+    grid-template-rows: nth($medidas, 24);
+    grid-column-gap: nth($medidas, 27);
+    grid-row-gap: nth($medidas, 27);
+}
+.grid4{
+    display: grid;
+    grid-template-columns: nth($medidas, 24);
+    grid-column-gap: nth($medidas, 27);
+    grid-row-gap: nth($medidas, 27);
+}
+
+.alargue{
+    width: nth($medidas, 13);
+    text-align: center;
+    font-size: nth($medidas, 5);
+    transition: all nth($medidas, 22);
+}
+
+.alargue:hover{
+    font-size: nth($medidas, 28);
+    color: nth($colores, 12);
+}
+
+.footerl{
+    font-size: nth($medidas, 5);
+    transition: all nth($medidas, 22);
+}
+.footerl:hover{
+    font-size: nth($medidas, 6);
+    color: nth($colores, 13);
+}
+#grad{
+    background-image: linear-gradient(nth($colores, 14), nth($colores, 15));
+}
+#locacion{
+    border-radius: nth($medidas, 27);
+}
+
+
+@media (max-width:  nth($medidas, 29)) {
+    .grid{
+        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
+        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
+    }
+    #unico{
+        margin-top: nth($medidas, 27);
+        font-size: nth($medidas, 32);
+    }
+    .grid4{
+        grid-template-rows: repeat( nth($medidas, 31), nth($medidas, 25));
+    }
+    .cuadro2{
+        display: block;
+        text-align: center;
+    }
+    .medidas{
+        width: nth($medidas, 33);
+        height: nth($medidas, 34);
+    }
+    #locacion{
+        width: nth($medidas, 35);
+        height: nth($medidas, 36); 
+    }
+    .grid3{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    .grid2{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    .margenfoto{
+        margin-bottom: nth($medidas, 37);
+    }
+    
+   
+}
+
+
+@media (min-width: nth($medidas, 38)) and (max-width: nth($medidas, 39)) {
+    .grid{
+        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
+        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
+        
+    }
+    #unico{
+        font-size: nth($medidas, 40);
+    }
+    .grid4{
+        grid-template-rows: repeat(nth($medidas, 31),nth($medidas, 25));
+    }
+    .cuadro2{
+        display: block;
+        text-align: center;
+    }
+    #locacion{
+        width: nth($medidas, 41);
+        height: nth($medidas, 42);
+    }
+    .grid3{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    .grid2{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    #formulario{
+        text-align: center;
+        margin-left: nth($medidas, 18);
+        margin-right: nth($medidas, 18);
+    }
+    .margenfoto{
+        margin-bottom: nth($medidas, 9);
+    }
+}
+
+@media (min-width: nth($medidas, 43)) and (max-width: nth($medidas, 44)) {
+    .grid{
+        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
+    }
+    .grid4{
+        grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 25));
+    }
+    .cuadro2{
+        display: block;
+        text-align: center;
+    }
+    .margenfoto{
+        margin-bottom: nth($medidas, 9);
+    }
+  
+}
+
+@media (min-width: nth($medidas, 43)) {
+    .grid{
+        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
+    }
+}
