@@ -1,8 +1,10 @@
-.body1 {
-  background-image: linear-gradient(to right top, #293421, #454f3a, #626c56, #818a73, #a2aa91); }
+.h1h2, .link, .ps, label, .link2, .redes, .h3index {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.logo {
+  width: 100%; }
 
 .h1h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #2f4e18;
   text-decoration: underline;
   text-align: center; }
@@ -10,41 +12,11 @@
 .h1size {
   font-size: 2.5rem; }
 
-.ps {
-  color: black;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin: 18px 26px 25px 40px;
-  border-radius: 5px; }
-
-.fondocajas {
-  background-color: #454f3a;
-  margin: 40px 25px 30px 25px;
-  padding: 15px;
-  border-radius: 1rem; }
-
-label {
-  color: black;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
-
-.cuadro {
-  border: 2px solid; }
-
-.cuadro2 {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 40px; }
-
-.cuadro21 {
-  text-align: center; }
-
-.logo {
-  width: 100%; }
+.espacio {
+  margin-top: 3rem; }
 
 .link {
   text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: antiquewhite;
   background-color: #466946;
   padding: 0.5rem;
@@ -57,20 +29,96 @@ label {
 .tran2:hover {
   font-size: 35px; }
 
-.link2 {
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 18px;
-  color: antiquewhite; }
+.h1h2, .link, .ps, label, .link2, .redes, .h3index {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
-.redes {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  display: flex;
-  justify-content: right; }
+.logo {
+  width: 100%; }
+
+.h1h2 {
+  color: #2f4e18;
+  text-decoration: underline;
+  text-align: center; }
+
+.h1size {
+  font-size: 2.5rem; }
+
+.espacio {
+  margin-top: 3rem; }
+
+.link {
+  text-decoration: none;
+  color: antiquewhite;
+  background-color: #466946;
+  padding: 0.5rem;
+  border-radius: 1rem; }
+
+.tran2 {
+  font-size: 24px;
+  transition: all 1s; }
+
+.tran2:hover {
+  font-size: 35px; }
+
+.h1h2, .link, .ps, label, .link2, .redes, .h3index {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.fondocajas {
+  background-color: #454f3a;
+  margin: 40px 25px 30px 25px;
+  padding: 15px;
+  border-radius: 1rem; }
+
+.footerl {
+  font-size: 25px;
+  transition: all 2s; }
+
+.footerl:hover {
+  font-size: 40px;
+  color: #41721e; }
+
+#grad {
+  background-image: linear-gradient(#819c6b, #0b4b18); }
+
+.ps {
+  color: black;
+  font-size: 17px;
+  margin: 18px 26px 25px 40px;
+  border-radius: 5px; }
 
 .redes2 {
   width: 50px;
   height: 50px; }
+
+.h1h2, .link, .ps, label, .link2, .redes, .h3index {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+
+.body1 {
+  background-image: linear-gradient(to right top, #293421, #454f3a, #626c56, #818a73, #a2aa91); }
+
+label {
+  color: black;
+  font-size: 17px; }
+
+.cuadro {
+  border: 2px solid; }
+
+.cuadro2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px; }
+
+.cuadro21 {
+  text-align: center; }
+
+.link2 {
+  text-decoration: none;
+  font-size: 18px;
+  color: antiquewhite; }
+
+.redes {
+  display: flex;
+  justify-content: right; }
 
 ul {
   list-style: none;
@@ -83,9 +131,6 @@ ul {
   padding: 2rem;
   margin-top: 2rem; }
 
-.espacio {
-  margin-top: 3rem; }
-
 .formulario1 {
   margin: 15px; }
 
@@ -97,7 +142,6 @@ ul {
   justify-content: space-around; }
 
 .h3index {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #0a0909;
   transition: all 2s;
   font-size: 28px; }
@@ -142,17 +186,6 @@ ul {
 .alargue:hover {
   font-size: 32px;
   color: white; }
-
-.footerl {
-  font-size: 25px;
-  transition: all 2s; }
-
-.footerl:hover {
-  font-size: 40px;
-  color: #41721e; }
-
-#grad {
-  background-image: linear-gradient(#819c6b, #0b4b18); }
 
 #locacion {
   border-radius: 10px; }

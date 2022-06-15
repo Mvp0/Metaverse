@@ -1,0 +1,23 @@
+@import "/scss/listas";
+
+@mixin bordes($style,$color,$padding,$margint) {
+    border-style: $style;
+    border-color: $color;
+    padding: $padding;
+    margin-top: $margint; 
+}
+
+@mixin grid1($displays,$medidas1,$medidas2,$medidas3){
+    display: $displays;
+    grid-template-columns: $medidas1;
+    grid-template-rows:$medidas2;
+    grid-column-gap: $medidas3;
+    grid-row-gap: $medidas3;
+}
+
+@mixin grid2($displays,$medidas1,$medidas2){
+    display: $displays;
+    grid-template-columns: $medidas1;
+    grid-column-gap: $medidas2;
+    grid-row-gap: $medidas2;
+}

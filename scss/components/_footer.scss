@@ -1,0 +1,38 @@
+@import "/scss/listas";
+@import "/scss/components/header";
+@import "/scss/components/extend";
+
+
+
+.fondocajas{
+    background-color: nth($colores, 2);
+    margin: nth($medidas, 6) nth($medidas, 5) nth($medidas, 8) nth($medidas, 5);
+    padding: nth($medidas, 9);
+    border-radius: nth($medidas, 10);
+}
+
+.footerl{
+    font-size: nth($medidas, 5);
+    transition: nth($transition, 1) nth($medidas, 22);
+}
+.footerl:hover{
+    font-size: nth($medidas, 6);
+    color: nth($colores, 13);
+}
+
+#grad{
+    background-image: linear-gradient(nth($colores, 14), nth($colores, 15));
+}
+
+.ps{
+    color: nth($colores, 7);
+    font-size: nth($medidas, 2);
+    @extend %font;
+    margin: nth($medidas, 3) nth($medidas, 4) nth($medidas, 5) nth($medidas,6);
+    border-radius: nth($medidas, 7);
+}
+
+.redes2{
+    width: nth($medidas, 18);
+    height: nth($medidas, 18);
+ }

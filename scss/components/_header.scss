@@ -1,0 +1,40 @@
+@import "/scss/listas";
+@import "/scss/components/extend";
+
+.logo{
+    width: nth($medidas, 13);
+}
+
+.h1h2{
+    @extend %font;
+    color: nth($colores, 6);
+    text-decoration: nth($textdeco, 1);
+    text-align: nth($textalign, 1);
+ }
+
+.h1size{
+    font-size: nth($medidas, 1);
+}
+.espacio{
+    margin-top: nth($medidas, 20);
+
+}
+
+.link{
+    text-decoration: nth($textdeco, 2);
+    @extend %font;
+    color: nth($colores, 8);
+    background-color: nth($colores, 9);
+    padding: nth($medidas, 14);
+    border-radius: nth($medidas, 10);
+}
+
+
+.tran2{
+    font-size: nth($medidas, 15);
+    transition: nth($transition, 1) nth($medidas, 16);
+}
+
+.tran2:hover{
+    font-size: nth($medidas, 17);
+}
