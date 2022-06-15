@@ -1,5 +1,5 @@
-@import "/scss/listas";
-@import "/scss/components/extend";
+@import "listas";
+@import "extend";
 
 .logo{
     width: nth($medidas, 13);
