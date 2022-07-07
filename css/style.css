@@ -116,6 +116,14 @@ label {
   font-size: 18px;
   color: antiquewhite; }
 
+.navi {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem; }
+
+.navi2 {
+  display: flex;
+  justify-content: space-around; }
+
 .redes {
   display: flex;
   justify-content: right; }
@@ -124,12 +132,6 @@ ul {
   list-style: none;
   display: flex;
   justify-content: space-around; }
-
-.borde {
-  border-style: dashed;
-  border-color: #206919;
-  padding: 2rem;
-  margin-top: 2rem; }
 
 .formulario1 {
   margin: 15px; }

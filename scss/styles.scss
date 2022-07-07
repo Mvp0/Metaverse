@@ -34,6 +34,15 @@ label{
     font-size: nth($medidas, 3);
     color: nth($colores, 8);
 }
+
+.navi{
+    margin-left: nth($medidas, 1);
+    margin-right: nth($medidas, 1);
+}
+.navi2{
+    display: nth($display, 1);
+    justify-content: nth($justifycontent, 1);
+}
 .redes{
     @extend %font;
     display: nth($display, 1);
@@ -46,9 +55,7 @@ ul{
     justify-content: nth($justifycontent, 1); 
 
 }
-.borde{
-    @include bordes(nth($border, 1), nth($colores, 10), nth($medidas, 19), nth($medidas, 19))
-}
+
 
 .formulario1{
     margin: nth($medidas, 9);
