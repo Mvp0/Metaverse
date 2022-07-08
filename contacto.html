@@ -31,7 +31,7 @@
         <br> 
         <h1 class="h1h2 h1size">Contacto</h1>
         <br>
-        <nav class="navbar navbar-expand-lg fondocajas ">
+        <nav class="navbar navbar-expand-lg fondocajas borde">
           <div class="container-fluid">
             <a class="navbar-brand tran2"  href="index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,43 +62,39 @@
         
         <div id="formulario" class="grid2">
 
-          <div class="fondocajas">
+          <div class="fondocajas borde">
             <div class="formulario1">
-              <h2 class="h1h2">Formulario de contacto</h2>
+              <h2 id="form">Formulario de contacto</h2>
               <div>
                 <form action="">
                 <div>
-                 <label for="nombre">Ingrese su Nombre: </label>
-                 <input type="text" name="nombre">
+                 <label class="formest borde" for="nombre">Ingrese su Nombre: </label>
+                 <input class="formest2" type="text" name="nombre" placeholder="Juan Carlos">
                </div>
                 <br>
-                <label for="apellido">Ingrese su Apellido: </label>
-                  <input type="text" name="apellido">
+                <label class="formest borde" for="apellido">Ingrese su Apellido: </label>
+                  <input class="formest2" type="text" name="apellido" placeholder="Garmendia">
               </div>
               <br>
             <div>
-              <label for="email">Ingrese un Email: </label>
-              <input type="email" name="email"required>
+              <label class="formest borde" for="email">Ingrese un Email: </label>
+              <input class="formest2" type="email" name="email"required placeholder="ejemplo@gmail.com">
             </div>
             <br>
             <div>
-              <label for="password">Ingrese una Contraseña: </label>
-              <input type="password" name="password">
+              <label class="formest borde" for="comentarios"> Dejanos una consulta Aquí: </label>
+              <br>
+              <textarea name="comentario" class="formest2" placeholder="Precios en descuento, entrega y servicios de garantía" cols="25" rows="10"></textarea>
             </div>
             <br>
             <div>
-              <label for="comentarios"> Dejanos una consulta Aquí: </label><br>
-              <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-            </div>
-            <br>
-            <div>
-              <label for="acepta">Acepta los términos y condiciones?</label>
+              <label class="formest borde" for="acepta">Acepta los términos y condiciones?</label>
               <input type="checkbox" name="acepta" value="1">
               <div>
               <br>
             <div>
-              <input type="submit" value="Enviar Datos">
-              <input type="reset" value="Borrar Datos">
+              <input class="formest borde" type="submit" value="Enviar Datos">
+              <input class="formest borde" type="reset" value="Borrar Datos">
             </div><br>
             </div>
             
@@ -110,10 +106,10 @@
         
         <br>
       <footer align="center">
-        <div class="fondocajas">
+        <div class="fondocajas borde">
             <h2 class="h1h2 footerl">Metaverse</h2>
             <br>
-            <p id="grad" class="ps">Copyright 2022 Metaverse. Todos los derechos reservados. Creado desde Buenos Aires.</p>
+            <p id="grad" class="ps borde2">Copyright 2022 Metaverse. Todos los derechos reservados. Creado desde Buenos Aires.</p>
             <br>
             <div class="redes">
                 <a  href="https://www.instagram.com/"><img src="images/insta.png" class="redes2" alt=""></a>

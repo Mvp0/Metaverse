@@ -15,6 +15,30 @@ label{
     @extend %font;
 }
 
+#form{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px; }
+.borde{
+    border: 2px solid black;
+}
+.borde2{
+    border: 1px solid black;
+}
+.formest{
+    padding: 10px;
+    background-color: nth($colores, 9);
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+.formest2{
+    border-radius: 10px;
+    background-color: rgb(134, 175, 139);
+}
+.iframeradius{
+    border-radius: 10px;
+}
 .cuadro{
     border: nth($medidas, 12) nth($border, 2);
 }
@@ -125,6 +149,10 @@ ul{
         width: nth($medidas, 49);
         height: nth($medidas, 36); 
     }
+    .grid {
+        grid-template-columns: nth($medidas, 24);
+        grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 24));
+        }
 }
 @media (min-width: nth($medidas, 48)) and (max-width:  nth($medidas, 29)) {
     .grid{

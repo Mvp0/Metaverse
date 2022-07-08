@@ -100,6 +100,31 @@ label {
   color: black;
   font-size: 17px; }
 
+#form {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.borde {
+  border: 2px solid black; }
+
+.borde2 {
+  border: 1px solid black; }
+
+.formest {
+  padding: 10px;
+  background-color: #466946;
+  border-radius: 10px;
+  margin-bottom: 7px; }
+
+.formest2 {
+  border-radius: 10px;
+  background-color: #86af8b; }
+
+.iframeradius {
+  border-radius: 10px; }
+
 .cuadro {
   border: 2px solid; }
 
@@ -201,7 +226,10 @@ ul {
     text-align: center; }
   #locacion {
     width: 370px;
-    height: 300px; } }
+    height: 300px; }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr); } }
 
 @media (min-width: 551px) and (max-width: 767px) {
   .grid {
