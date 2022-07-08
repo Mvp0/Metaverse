@@ -63,12 +63,6 @@
 .h1h2, .link, .ps, label, .link2, .redes, .h3index {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
-.fondocajas {
-  background-color: #454f3a;
-  margin: 40px 25px 30px 25px;
-  padding: 15px;
-  border-radius: 1rem; }
-
 .footerl {
   font-size: 25px;
   transition: all 2s; }
@@ -76,15 +70,6 @@
 .footerl:hover {
   font-size: 40px;
   color: #41721e; }
-
-#grad {
-  background-image: linear-gradient(#819c6b, #0b4b18); }
-
-.ps {
-  color: black;
-  font-size: 17px;
-  margin: 18px 26px 25px 40px;
-  border-radius: 5px; }
 
 .redes2 {
   width: 50px;
@@ -95,6 +80,24 @@
 
 .body1 {
   background-image: linear-gradient(to right top, #293421, #454f3a, #626c56, #818a73, #a2aa91); }
+
+.fondocajas {
+  background-color: #a8a8a8;
+  margin: 40px 25px 30px 25px;
+  padding: 15px;
+  border-radius: 1rem; }
+
+.ps {
+  color: black;
+  font-size: 17px;
+  margin: 18px 26px 25px 40px;
+  border-radius: 5px; }
+
+#grad {
+  background-image: linear-gradient(to right top, #626c56, #818a73, #a2aa91); }
+
+.fotos {
+  text-align: center; }
 
 label {
   color: black;
@@ -166,6 +169,10 @@ ul {
 .texto {
   width: 70%; }
 
+.centrado1 {
+  margin-left: 25%;
+  margin-right: 25%; }
+
 .stan {
   display: flex;
   justify-content: space-around; }
@@ -219,10 +226,10 @@ ul {
 #locacion {
   border-radius: 10px; }
 
-@media (min-width: 150px) and (max-width: 550px) {
+@media (min-width: 120px) and (max-width: 550px) {
   .medidas {
-    width: 300px;
-    height: 150px; }
+    width: 250px;
+    height: 120px; }
   .cuadro2 {
     display: block;
     text-align: center; }
