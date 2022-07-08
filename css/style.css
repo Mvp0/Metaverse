@@ -192,7 +192,18 @@ ul {
 #locacion {
   border-radius: 10px; }
 
-@media (max-width: 767px) {
+@media (min-width: 180px) and (max-width: 550px) {
+  .medidas {
+    width: 340px;
+    height: 180px; }
+  .cuadro2 {
+    display: block;
+    text-align: center; }
+  #locacion {
+    width: 370px;
+    height: 300px; } }
+
+@media (min-width: 551px) and (max-width: 767px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 2fr; }

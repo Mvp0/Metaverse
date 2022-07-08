@@ -112,8 +112,21 @@ ul{
     border-radius: nth($medidas, 27);
 }
 
-
-@media (max-width:  nth($medidas, 29)) {
+@media (min-width: nth($medidas, 46)) and (max-width: nth($medidas, 47)) {
+    .medidas{
+        width: nth($medidas, 45);
+        height: nth($medidas, 46);
+    }
+    .cuadro2{
+        display: nth($display, 3);
+        text-align: nth($textalign, 1);
+    }
+    #locacion{
+        width: nth($medidas, 49);
+        height: nth($medidas, 36); 
+    }
+}
+@media (min-width: nth($medidas, 48)) and (max-width:  nth($medidas, 29)) {
     .grid{
         grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
         grid-template-rows: nth($medidas, 25) nth($medidas, 26);
