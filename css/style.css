@@ -119,11 +119,13 @@ label {
   margin-bottom: 7px; }
 
 .formest2 {
-  border-radius: 10px;
-  background-color: #86af8b; }
+  border-radius: 10px; }
 
 .iframeradius {
   border-radius: 10px; }
+
+.ajusteform {
+  width: 180px; }
 
 .cuadro {
   border: 2px solid; }
@@ -217,10 +219,10 @@ ul {
 #locacion {
   border-radius: 10px; }
 
-@media (min-width: 180px) and (max-width: 550px) {
+@media (min-width: 150px) and (max-width: 550px) {
   .medidas {
-    width: 340px;
-    height: 180px; }
+    width: 300px;
+    height: 150px; }
   .cuadro2 {
     display: block;
     text-align: center; }

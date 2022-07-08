@@ -34,10 +34,12 @@ label{
 }
 .formest2{
     border-radius: 10px;
-    background-color: rgb(134, 175, 139);
 }
 .iframeradius{
     border-radius: 10px;
+}
+.ajusteform{
+    width: 180px;
 }
 .cuadro{
     border: nth($medidas, 12) nth($border, 2);
