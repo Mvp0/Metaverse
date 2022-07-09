@@ -1,0 +1,34 @@
+@import "listas";
+
+.fotos{
+    text-align: nth($textalign, 1);
+}
+.cuadro21{
+    text-align: nth($textalign, 1);
+}
+.fotomedida{
+    width:560px;
+    height:315px;
+}
+.medidac1{
+    width:560px;
+    height:315px;
+}
+.medidac2{
+    width:150px;
+    height:150px;
+}
+.medidac3{
+    width:600px;
+    height:450px;
+}
+.micono{
+    width:140px;
+    height:140px;
+}
+.cicono{
+    text-align: left;
+}
+.log{
+    display: inline;
+}

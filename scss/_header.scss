@@ -1,9 +1,7 @@
 @import "listas";
 @import "extend";
 
-.logo{
-    width: nth($medidas, 13);
-}
+
 
 .h1h2{
     @extend %font;

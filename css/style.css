@@ -1,9 +1,6 @@
 .h1h2, .link, .ps, label, .link2, .redes, .h3index {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
-.logo {
-  width: 100%; }
-
 .h1h2 {
   color: #2f4e18;
   text-decoration: underline;
@@ -31,9 +28,6 @@
 
 .h1h2, .link, .ps, label, .link2, .redes, .h3index {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
-
-.logo {
-  width: 100%; }
 
 .h1h2 {
   color: #2f4e18;
@@ -78,8 +72,43 @@
 .h1h2, .link, .ps, label, .link2, .redes, .h3index {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
+.fotos {
+  text-align: center; }
+
+.cuadro21 {
+  text-align: center; }
+
+.fotomedida {
+  width: 560px;
+  height: 315px; }
+
+.medidac1 {
+  width: 560px;
+  height: 315px; }
+
+.medidac2 {
+  width: 150px;
+  height: 150px; }
+
+.medidac3 {
+  width: 600px;
+  height: 450px; }
+
+.micono {
+  width: 140px;
+  height: 140px; }
+
+.cicono {
+  text-align: left; }
+
+.log {
+  display: inline; }
+
 .body1 {
   background-image: linear-gradient(to right top, #293421, #454f3a, #626c56, #818a73, #a2aa91); }
+
+#grad {
+  background-image: linear-gradient(to right top, #626c56, #818a73, #a2aa91); }
 
 .fondocajas {
   background-color: #a8a8a8;
@@ -92,12 +121,6 @@
   font-size: 17px;
   margin: 18px 26px 25px 40px;
   border-radius: 5px; }
-
-#grad {
-  background-image: linear-gradient(to right top, #626c56, #818a73, #a2aa91); }
-
-.fotos {
-  text-align: center; }
 
 label {
   color: black;
@@ -137,9 +160,6 @@ label {
   display: flex;
   justify-content: space-around;
   margin-bottom: 40px; }
-
-.cuadro21 {
-  text-align: center; }
 
 .link2 {
   text-decoration: none;
@@ -238,7 +258,10 @@ ul {
     height: 300px; }
   .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr); } }
+    grid-template-rows: repeat(2, 1fr); }
+  .fotomedida {
+    width: 430px;
+    height: 250px; } }
 
 @media (min-width: 551px) and (max-width: 767px) {
   .grid {
