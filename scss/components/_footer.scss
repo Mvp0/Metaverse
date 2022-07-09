@@ -3,7 +3,6 @@
 @import "extend";
 
 
-
 .footerl{
     font-size: nth($medidas, 5);
     transition: nth($transition, 1) nth($medidas, 22);
@@ -13,9 +12,11 @@
     color: nth($colores, 13);
 }
 
-
-
-
+.redes{
+    @extend %font;
+    display: nth($display, 1);
+    justify-content: nth($justifycontent, 2);
+}
 .redes2{
     width: nth($medidas, 18);
     height: nth($medidas, 18);

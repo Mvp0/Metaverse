@@ -4,6 +4,7 @@
 @import "components/extend";
 @import "components/mixin";
 @import "components/medidas";
+@import "components/mediaqueries";
 
 
 .body1{
@@ -25,39 +26,11 @@
     margin: nth($medidas, 3) nth($medidas, 4) nth($medidas, 5) nth($medidas,6);
     border-radius: nth($medidas, 7);
 }
-
-
-label{
-    color: nth($colores, 7);
-    font-size: nth($medidas, 11);
-    @extend %font;
-}
-
-#form{
-    color: nth($colores, 7);
-    text-decoration: nth($textdeco, 1);
-    text-align: nth($textalign, 1);
-    margin-bottom: nth($medidas, 5); }
 .borde{
     border: nth($medidas, 12) nth($border, 2) nth($colores, 7);
 }
 .borde2{
     border: nth($medidas, 52) nth($border, 2) nth($colores, 7);
-}
-.formest{
-    padding: nth($medidas, 27);
-    background-color: nth($colores, 9);
-    border-radius: nth($medidas, 27);
-    margin-bottom: nth($medidas, 53);
-}
-.formest2{
-    border-radius: nth($medidas, 27);
-}
-.iframeradius{
-    border-radius: nth($medidas, 27);
-}
-.ajusteform{
-    width: nth($medidas, 54);
 }
 .cuadro{
     border: nth($medidas, 12) nth($border, 2);
@@ -67,54 +40,13 @@ label{
     justify-content: nth($justifycontent, 1);
     margin-bottom: nth($medidas, 6);
 }
-
- 
-
-.link2{
-    text-decoration: nth($textdeco, 2);
-    @extend %font;
-    font-size: nth($medidas, 3);
-    color: nth($colores, 8);
-}
-
-.navi{
-    margin-left: nth($medidas, 1);
-    margin-right: nth($medidas, 1);
-}
-.navi2{
-    display: nth($display, 1);
-    justify-content: nth($justifycontent, 1);
-}
-.redes{
-    @extend %font;
-    display: nth($display, 1);
-    justify-content: nth($justifycontent, 2);
-}
-
 ul{
     list-style: nth($textdeco, 2);
     display: nth($display, 1);
     justify-content: nth($justifycontent, 1); 
-
 }
-
-
-.formulario1{
-    margin: nth($medidas, 9);
-}
-
-.texto{
-    width: nth($medidas, 21)
-}
-.centrado1{
-    margin-left: nth($medidas, 55);
-    margin-right: nth($medidas, 55);
-}
-.stan{
-    
-    display: nth($display, 1);
-    justify-content: nth($justifycontent, 1);
-    
+.iframeradius{
+    border-radius: nth($medidas, 27);
 }
 .h3index{
     @extend %font;
@@ -127,6 +59,58 @@ ul{
    font-size: nth($medidas, 6);
    color: nth($colores, 6);
 }
+label{
+    color: nth($colores, 7);
+    font-size: nth($medidas, 11);
+    @extend %font;
+}
+
+.stan{
+    
+    display: nth($display, 1);
+    justify-content: nth($justifycontent, 1);
+    
+}
+
+#form{
+    color: nth($colores, 7);
+    text-decoration: nth($textdeco, 1);
+    text-align: nth($textalign, 1);
+    margin-bottom: nth($medidas, 5); 
+}
+.formest{
+    padding: nth($medidas, 27);
+    background-color: nth($colores, 9);
+    border-radius: nth($medidas, 27);
+    margin-bottom: nth($medidas, 53);
+}
+.formest2{
+    border-radius: nth($medidas, 27);
+}
+.ajusteform{
+    width: nth($medidas, 54);
+}
+
+.alargue{
+    width: nth($medidas, 13);
+    text-align: nth($textalign, 1);
+    font-size: nth($medidas, 5);
+    transition: nth($transition, 1) nth($medidas, 22);
+}
+.alargue:hover{
+    font-size: nth($medidas, 28);
+    color: nth($colores, 12);
+}
+
+.navi{
+    margin-left: nth($medidas, 1);
+    margin-right: nth($medidas, 1);
+}
+.navi2{
+    display: nth($display, 1);
+    justify-content: nth($justifycontent, 1);
+}
+
 .grid{
     @include grid1(nth($display, 2),nth($medidas, 24) nth($medidas, 25) nth($medidas, 24) , nth($medidas, 24) nth($medidas, 26), nth($medidas, 27))
 
@@ -142,138 +126,3 @@ ul{
     @include grid2(nth($display, 2),nth($medidas, 24), nth($medidas, 27))
 }
 
-.alargue{
-    width: nth($medidas, 13);
-    text-align: nth($textalign, 1);
-    font-size: nth($medidas, 5);
-    transition: nth($transition, 1) nth($medidas, 22);
-}
-
-.alargue:hover{
-    font-size: nth($medidas, 28);
-    color: nth($colores, 12);
-}
-
-#locacion{
-    border-radius: nth($medidas, 27);
-}
-
-@media (min-width: nth($medidas, 46)) and (max-width: nth($medidas, 47)) {
-    .medidas{
-        width: nth($medidas, 45);
-        height: nth($medidas, 46);
-    }
-    .cuadro2{
-        display: nth($display, 3);
-        text-align: nth($textalign, 1);
-    }
-    #locacion{
-        width: nth($medidas, 61);
-        height: nth($medidas, 34); 
-    }
-    .grid {
-        grid-template-columns: nth($medidas, 24);
-        grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 24));
-    }
-    .fotomedida{
-        width: nth($medidas, 50);
-        height: nth($medidas, 51);
-    }
-    
-}
-@media (min-width: nth($medidas, 48)) and (max-width:  nth($medidas, 29)) {
-    .grid{
-        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
-        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
-    }
-    #unico{
-        margin-top: nth($medidas, 27);
-        font-size: nth($medidas, 32);
-    }
-    .grid4{
-        grid-template-rows: repeat( nth($medidas, 31), nth($medidas, 25));
-    }
-    .cuadro2{
-        display: nth($display, 3);
-        text-align: nth($textalign, 1);
-    }
-    .medidas{
-        width: nth($medidas, 33);
-        height: nth($medidas, 34);
-    }
-    #locacion{
-        width: nth($medidas, 35);
-        height: nth($medidas, 36); 
-    }
-    .grid3{
-        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
-    }
-    .grid2{
-        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
-    }
-    .margenfoto{
-        margin-bottom: nth($medidas, 37);
-    }
-    
-   
-}
-
-
-@media (min-width: nth($medidas, 38)) and (max-width: nth($medidas, 39)) {
-    .grid{
-        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
-        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
-        
-    }
-    #unico{
-        font-size: nth($medidas, 40);
-    }
-    .grid4{
-        grid-template-rows: repeat(nth($medidas, 31),nth($medidas, 25));
-    }
-    .cuadro2{
-        display: nth($display, 3);
-        text-align: nth($textalign, 1);
-    }
-    #locacion{
-        width: nth($medidas, 41);
-        height: nth($medidas, 42);
-    }
-    .grid3{
-        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
-    }
-    .grid2{
-        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
-    }
-    #formulario{
-        text-align: nth($textalign, 1);
-        margin-left: nth($medidas, 18);
-        margin-right: nth($medidas, 18);
-    }
-    .margenfoto{
-        margin-bottom: nth($medidas, 9);
-    }
-}
-
-@media (min-width: nth($medidas, 43)) and (max-width: nth($medidas, 44)) {
-    .grid{
-        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
-    }
-    .grid4{
-        grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 25));
-    }
-    .cuadro2{
-        display: nth($display, 3);
-        text-align: nth($textalign, 1);
-    }
-    .margenfoto{
-        margin-bottom: nth($medidas, 9);
-    }
-  
-}
-
-@media (min-width: nth($medidas, 43)) {
-    .grid{
-        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
-    }
-}

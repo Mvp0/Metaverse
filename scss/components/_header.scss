@@ -26,13 +26,17 @@
     padding: nth($medidas, 14);
     border-radius: nth($medidas, 10);
 }
-
+.link2{
+    text-decoration: nth($textdeco, 2);
+    @extend %font;
+    font-size: nth($medidas, 3);
+    color: nth($colores, 8);
+}
 
 .tran2{
     font-size: nth($medidas, 15);
     transition: nth($transition, 1) nth($medidas, 16);
 }
-
 .tran2:hover{
     font-size: nth($medidas, 17);
 }

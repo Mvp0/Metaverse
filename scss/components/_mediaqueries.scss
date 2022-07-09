@@ -1,0 +1,122 @@
+@import "/scss/listas";
+
+
+@media (min-width: nth($medidas, 46)) and (max-width: nth($medidas, 47)) {
+    .medidas{
+        width: nth($medidas, 45);
+        height: nth($medidas, 46);
+    }
+    .cuadro2{
+        display: nth($display, 3);
+        text-align: nth($textalign, 1);
+    }
+    #locacion{
+        width: nth($medidas, 61);
+        height: nth($medidas, 34); 
+    }
+    .grid {
+        grid-template-columns: nth($medidas, 24);
+        grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 24));
+    }
+    .fotomedida{
+        width: nth($medidas, 50);
+        height: nth($medidas, 51);
+    }
+    
+}
+@media (min-width: nth($medidas, 48)) and (max-width:  nth($medidas, 29)) {
+    .grid{
+        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
+        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
+    }
+    #unico{
+        margin-top: nth($medidas, 27);
+        font-size: nth($medidas, 32);
+    }
+    .grid4{
+        grid-template-rows: repeat( nth($medidas, 31), nth($medidas, 25));
+    }
+    .cuadro2{
+        display: nth($display, 3);
+        text-align: nth($textalign, 1);
+    }
+    .medidas{
+        width: nth($medidas, 33);
+        height: nth($medidas, 34);
+    }
+    #locacion{
+        width: nth($medidas, 35);
+        height: nth($medidas, 36); 
+    }
+    .grid3{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    .grid2{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    .margenfoto{
+        margin-bottom: nth($medidas, 37);
+    }
+    
+   
+}
+
+
+@media (min-width: nth($medidas, 38)) and (max-width: nth($medidas, 39)) {
+    .grid{
+        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
+        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
+        
+    }
+    #unico{
+        font-size: nth($medidas, 40);
+    }
+    .grid4{
+        grid-template-rows: repeat(nth($medidas, 31),nth($medidas, 25));
+    }
+    .cuadro2{
+        display: nth($display, 3);
+        text-align: nth($textalign, 1);
+    }
+    #locacion{
+        width: nth($medidas, 41);
+        height: nth($medidas, 42);
+    }
+    .grid3{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    .grid2{
+        grid-template-columns: repeat(nth($medidas, 30), nth($medidas, 24));
+    }
+    #formulario{
+        text-align: nth($textalign, 1);
+        margin-left: nth($medidas, 18);
+        margin-right: nth($medidas, 18);
+    }
+    .margenfoto{
+        margin-bottom: nth($medidas, 9);
+    }
+}
+
+@media (min-width: nth($medidas, 43)) and (max-width: nth($medidas, 44)) {
+    .grid{
+        grid-template-columns: nth($medidas, 24) nth($medidas, 24) nth($medidas, 24);
+    }
+    .grid4{
+        grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 25));
+    }
+    .cuadro2{
+        display: nth($display, 3);
+        text-align: nth($textalign, 1);
+    }
+    .margenfoto{
+        margin-bottom: nth($medidas, 9);
+    }
+  
+}
+
+@media (min-width: nth($medidas, 43)) {
+    .grid{
+        grid-template-rows: nth($medidas, 25) nth($medidas, 26);
+    }
+}

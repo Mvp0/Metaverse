@@ -32,3 +32,17 @@
 .log{
     display: nth($display, 4);
 }
+.formulario1{
+    margin: nth($medidas, 9);
+}
+
+.texto{
+    width: nth($medidas, 21)
+}
+.centrado1{
+    margin-left: nth($medidas, 55);
+    margin-right: nth($medidas, 55);
+}
+#locacion{
+    border-radius: nth($medidas, 27);
+}
