@@ -7,8 +7,8 @@
     text-align: nth($textalign, 1);
 }
 .fotomedida {
-    width: 560px;
-    height: 315px;
+    width:nth($medidas, 56);
+    height:nth($medidas, 57);
  }
 .medidac1{
     width:nth($medidas, 56);
