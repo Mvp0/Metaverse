@@ -40,13 +40,13 @@ $medidas:
 70%,
 2s,
 28px,
-/*Grids*/
+/*Grids 23*/
 1fr,
 0.5fr,
 2fr,
 10px,
 32px,
-/*Media Queries*/
+/*Media Queries 28*/
 767px,
 1,
 2,
@@ -58,7 +58,7 @@ $medidas:
 20px,
 768px,
 992px,
-1.5rem,
+1.5rem,/*40*/
 500px,
 350px,
 993px,
@@ -67,10 +67,23 @@ $medidas:
 120px,
 550px,
 551px,
-370px;
+370px,
+400px,/*50*/
+230px,
+1px,
+7px,
+180px,
+25%,
+560px,
+315px,
+150px,
+600px,
+140px,/*60*/
+280px;
 
 $textalign:
-center;
+center,
+left;
 
 $fontfamily:
 'Franklin Gothic Medium',
@@ -85,7 +98,8 @@ none;
 $display:
 flex,
 grid,
-block;
+block,
+inline;
 
 $border:
 dashed,

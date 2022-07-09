@@ -254,14 +254,14 @@ ul {
     display: block;
     text-align: center; }
   #locacion {
-    width: 370px;
-    height: 300px; }
+    width: 280px;
+    height: 250px; }
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr); }
   .fotomedida {
-    width: 430px;
-    height: 250px; } }
+    width: 400px;
+    height: 230px; } }
 
 @media (min-width: 551px) and (max-width: 767px) {
   .grid {

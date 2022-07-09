@@ -34,30 +34,30 @@ label{
 }
 
 #form{
-    color: black;
-    text-decoration: underline;
-    text-align: center;
-    margin-bottom: 25px; }
+    color: nth($colores, 7);
+    text-decoration: nth($textdeco, 1);
+    text-align: nth($textalign, 1);
+    margin-bottom: nth($medidas, 5); }
 .borde{
-    border: 2px solid black;
+    border: nth($medidas, 12) nth($border, 2) nth($colores, 7);
 }
 .borde2{
-    border: 1px solid black;
+    border: nth($medidas, 52) nth($border, 2) nth($colores, 7);
 }
 .formest{
-    padding: 10px;
+    padding: nth($medidas, 27);
     background-color: nth($colores, 9);
-    border-radius: 10px;
-    margin-bottom: 7px;
+    border-radius: nth($medidas, 27);
+    margin-bottom: nth($medidas, 53);
 }
 .formest2{
-    border-radius: 10px;
+    border-radius: nth($medidas, 27);
 }
 .iframeradius{
-    border-radius: 10px;
+    border-radius: nth($medidas, 27);
 }
 .ajusteform{
-    width: 180px;
+    width: nth($medidas, 54);
 }
 .cuadro{
     border: nth($medidas, 12) nth($border, 2);
@@ -107,8 +107,8 @@ ul{
     width: nth($medidas, 21)
 }
 .centrado1{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: nth($medidas, 55);
+    margin-right: nth($medidas, 55);
 }
 .stan{
     
@@ -168,17 +168,16 @@ ul{
         text-align: nth($textalign, 1);
     }
     #locacion{
-        width: nth($medidas, 49);
-        height: nth($medidas, 36); 
+        width: nth($medidas, 61);
+        height: nth($medidas, 34); 
     }
     .grid {
         grid-template-columns: nth($medidas, 24);
         grid-template-rows: repeat(nth($medidas, 31), nth($medidas, 24));
     }
     .fotomedida{
-        width: 430px;
-        height: 250px;
-       
+        width: nth($medidas, 50);
+        height: nth($medidas, 51);
     }
     
 }

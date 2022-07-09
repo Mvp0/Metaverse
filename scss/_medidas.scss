@@ -6,29 +6,29 @@
 .cuadro21{
     text-align: nth($textalign, 1);
 }
-.fotomedida{
-    width:560px;
-    height:315px;
-}
+.fotomedida {
+    width: 560px;
+    height: 315px;
+ }
 .medidac1{
-    width:560px;
-    height:315px;
+    width:nth($medidas, 56);
+    height:nth($medidas, 57);
 }
 .medidac2{
-    width:150px;
-    height:150px;
+    width:nth($medidas, 58);
+    height:nth($medidas, 58);
 }
 .medidac3{
-    width:600px;
-    height:450px;
+    width:nth($medidas, 59);
+    height:nth($medidas, 35);
 }
 .micono{
-    width:140px;
-    height:140px;
+    width:nth($medidas, 60);
+    height:nth($medidas, 60);
 }
 .cicono{
-    text-align: left;
+    text-align: nth($textalign, 2);
 }
 .log{
-    display: inline;
+    display: nth($display, 4);
 }
